@@ -11,8 +11,8 @@ In the labs throughout this section, we'll be working on building a small
 portfolio site in React.
 
 Our goal for the first lesson is to get the basic components for our app — the
-`<Navbar>`, `<Home>`, and `<About>` components — to be returned from the
-`<App>` component.
+`<Navbar>`, `<Home>`, and `<About>` components — to be returned from the `<App>`
+component.
 
 Once we're done, we should get something like this:
 
@@ -36,7 +36,8 @@ to check your work.
 ## Deliverables
 
 - Two components, `<Navbar>` and `<Home>`, are already defined in the `App.js`
-  file. Display both of these components as _child_ components of `<App>`.
+  file. Add both of these components as _child_ components of `<App>` by
+  including them in the return statement for the `App` function.
 
 - Create a third component, `<About>`. The `<About>` component should also be a
   _child_ component of `<App>`.
@@ -45,6 +46,14 @@ to check your work.
     match the screenshot, the div should contain an `<h2>` element with the text
     "About." However, as long as it has an id of `about`, it will pass the test!
 
+**Hint**: If you're stuck, try using the `screen.debug` method in the test file
+to see what DOM elements are being returned by your `<App>` component. If you
+still need help, this lab (and others) have a [solution branch][] on GitHub
+where you can see one possible solution to this lesson.
+
 ## Resources
 
 - [React Components](https://reactjs.org/docs/components-and-props.html)
+
+[solution branch]:
+  https://github.com/learn-co-curriculum/react-hooks-running-tests/tree/solution
